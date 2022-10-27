@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.contener_navbar{
+  display: flex;
+  justify-content: center;
+}
+.main_navbar{
+    width: 87%;   
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------center_navbar------------- */
+.center_navbar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center_navbar ul{
+    width: 85%;
+    display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+     font-size: 21px;
+    }
+    .center_navbar ul a {
+        text-decoration: none;
+   
+}
+.color_black{
+    color: black;
+}
+.color_blue{
+    color:  #2F80ED;;
+}
+/* -------------right_navbar-------------- */
+.right_navbar{
+    display: flex;
+    align-items: center;
+}
+.button_Contact_Us{
+    font-weight: 600;
+       padding: 8px 16px;
+       border: 0.5px solid;
+       border-radius: 10px;
+       font-size: 21px;
+       background-color: white;
+}
+ /*------------------- World class -----------------*/
+ .contener_World_class{
+    position: relative;
+    display: flex;
+    justify-content: center;
+ }
+ .main_World_class{
+    width: 87%;   
+ }
+.World_class{
+    width: 52%;
+    margin-top: 175px;
+}
+.h1_World_class{
+    font-size:70px;
+    font-weight: 700;
+    font-family: 'Inter';
+}
+
+.div_our_goal{
+  margin-top: 34px;
+  margin-bottom: 83PX;
+  width: 642px;
+}
+.p_our_goal{
+    font-size: 22px;
+    line-height: 36px;
+    color: #676767;
+}
+.button_Booking{
+    padding: 32px 68px;
+    font-size: 32px;
+    border-radius: 31px;
+    background-color: #0E1035;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 500;
+    margin-bottom: 147px;
+}
+.img_vertolyot{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+   bottom: 0.5%;
+}
+/* -----------Companies that have used our services--------- */
+.Companies_that_have{
+  display: flex;
+  justify-content: center;
+  background-color: #0E1035;
+}
+.main_Companies_that_have{
+    width: 87%;
+}
+.p_Companies{
+    margin: 107px 0px 86px 0px;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+.color_white{
+    color: white;
+}
+.top_chevron{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 151px;
+}
+.left_slon{
+    width: 43%;
+}
+.left_slon img{
+ width: 100%;
+}
+.right_our_servise{
+    width: 46%;
+    color: white;
+}
+/* ------bootom_slon_our */
+.bootom_slon_our{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 167px;
+}
+.ssilki{
+    display: flex;
+    justify-content: space-between;
+}
+.ul{
+   list-style-type:none ;
+   font-size: 18px;
+   /* font-weight: 700; */
+   line-height: 45px;
+}
+
+.h1_Our{
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.p_Travira{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 47px;
+    color: #BDBBBB;
+}
+.decor{
+    color: white;
+}
+
+
+
+/* -----------Safety-------------- */
+.contener_Safety{
+    display: flex;
+    justify-content: center;
+}
+.min_Safety{
+    width: 87%;
+    margin-top: 122px;
+}
+
+/* ---------------------------------------- */
+.bootom2_slon_our{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.ssilki2{
+    display: flex;
+    justify-content: space-between;
+}
+.ul2{
+   list-style-type:none ;
+   font-size: 18px;
+   /* font-weight: 700; */
+   line-height: 45px;
+}
+
+.h1_Our2{
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.p_Travira2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 47px;
+    color: #BDBBBB;
+}
+.left_slon2{
+    width: 43%;
+}
+.left_slon2 img{
+ width: 100%;
+}
+.right2_our_servise{
+    width: 46%;
+}
+
+/* <!-- --------------Fleet----------------- --> */
+.contener_Fleet{
+  display: flex;
+  justify-content: center;
+  background-color: #fffdfd;
+  margin-bottom: 140px;
+}
+.min_Fleet{
+  width: 87%;
+}
+.center_freet{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 103px;
+}
+.h1_freet{
+    font-size: 55px;
+    text-align: center;
+}
+.p_totally{
+    font-size: 19px;
+    text-align: center;
+}
+.text_Fleet{
+  width: 55%;   
+}
+.top{
+    background-image: url(./unsplash_yQorCngxzwI.png);
+    background-size: 100%;
+    text-align: center;
+    border-radius: 50px 50px 0px 0px;
+   
+}
+.top img{
+    width: 70%;
+}
+.bootom p{
+    padding: 50px 140px;
+}
+.bootom{
+  background-color: white;
+  border-radius:0px 0px 50px 50px;
+}
+.CESSNA_208_CARAVAN{
+    box-shadow: 0px 4px 50px rgb(245, 242, 242);
+    width: 49%;
+}
+.smlyor{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.position{
+    width: 49%;
+    top: 0;
+   right: -51%;
+    position: absolute;
+}
+
+/* *----------------contener_This_is----------- */
+.contener_This_is{
+    display: flex;
+    justify-content: center;
+}
+.min_This_is{
+    width: 87%;
+}
+.text_This_is{
+  width: 30%;
+}
+.dis_cent_f{
+    display: flex;
+    align-items: center;
+}
+.profils{
+    width: 30%;
+    box-shadow: 4px 30px;
+}
+.img_prof{
+ margin-right: 10px;
+}
